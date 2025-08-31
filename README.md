@@ -39,11 +39,10 @@ sbatch <job_file_of_corresponding_test_case>
 
 Replace `<job_file_of_corresponding_test_case>` with the filename (e.g., `job_files/job_64_64_64_3_8.sh`).
 
-## We have added plot code in the ipynb file named "plot_code.ipynb" to make the barplot similar to shown in our reports. We have reported final code times charts, as other analysis requires other code files and datasets, hence we have made single file. If needed we can show demo of other code approaches as well to see how their plots form (which are reported in report)
+**Note:** We have added plot code in the ipynb file named "plot_code.ipynb" to make the barplot similar to shown in our reports. We have reported final code times charts, as other analysis requires other code files and datasets, hence we have made single file. If needed we can show demo of other code approaches as well to see how their plots form (which are reported in report) the same code in "plot_code.ipynb" is set in ""plot_code.py" also to make a plot png file named "Figure_plot_sample.png" for your reference. I am uploading the png also for reference. 
 
-## the same code in "plot_code.ipynb" is set in ""plot_code.py" also to make a plot png file named "Figure_plot_sample.png" for your reference. I am uploading the png also for reference. 
+To run the script, open the ipynb file in python environment and run the cell. Or you can also use the python script to make the plot. 
+   ```bash 
+python3 plot_code.py
+   ```
 
-## to run the script, open the ipynb file in python environment and run the cell. Or you can also use the py script to run. 
-# use command 
-python3 plot_code.py 
-# to make the plot.
