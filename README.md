@@ -1,5 +1,3 @@
-# README
-
 ## Overview
 
 This project contains our final submission for the assignment. The code is designed to compute the minima and maxima of a 3D figure using MPI parallel I/O. The implementation is provided in a single source file (`src.c`), as per the assignment instructions.
@@ -45,4 +43,5 @@ To run the script, open the ipynb file in python environment and run the cell. O
    ```bash 
 python3 plot_code.py
    ```
+
 
